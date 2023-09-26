@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab&display=swap');
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+section {
+position: relative;
+width: 100%;
+min-height: 100vh;
+justify-content: space-between;
+align-items: center;
+background: #ffffff;
+    }
+
+.circle {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(50% at 99% 99%);
+}
+    .content .textBox {
+        position: relative;
+        max-width: 600px;
+    }
+    
+    .content .textBox h1 {
+        color: #333;
+        font-size: 4em;
+        line-height: 1.em;
+        font-weight: 500;
+    }
+
+    .content  .imgBook {
+width: 600px;
+display: flex;
+justify-content: flex-end;
+padding-top: 220px;
+}
+.content .imgBook  img {
+    max-width: 340px;
+}
+
+
+.content .textBox button {
+display: inline-block;
+margin-top: 20px;
+padding:8px 20px ;
+background-color: #017143;
+color:#fff;
+border-radius: 40px;
+font-weight: 500;
+letter-spacing: 1px;
+text-decoration: none;
+}
+
+.content .textBox h2 {
+color:#333;
+font-size:3em;
+line-height: 1.4 em;
+font-weight: 500;
+
+}
+
+.content .textBox h1 span {
+    color: #017143;
+    font-size:1.2em ;
+    font-weight: 900;  
+   
+}
+.content .textBox h2 span{
+color: #017143;
+font-size:1.2em ;
+font-weight: 900;
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background :#017143;
+    color: #fff;
+    border-radius: 40x;
+}
+
+.thumb{
+    position: absolute;
+    left:50%;
+    bottom:20px;
+    transform: translate(-50);
+    display: flex;
+
+}
+
+.thumb li {
+list-style: none;
+display: inline-block;
+margin: 0 60px;
+cursor: pointer;
+transition: 0.5s;
+}
+.thumb li :hover {
+transform: translate(-15px);
+}
+.thumb li img {
+    max-width: 60px;
+}
+
